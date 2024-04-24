@@ -1,0 +1,62 @@
+* { margin: 0; padding: 0;}
+
+html, body{
+    background: rgb(111, 111, 255);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+section{
+    position: relative;
+    top: -50px;
+    display: grid;
+    
+    background: white;
+    border-radius: 50px;
+    box-shadow: 3px 3px 15px 3px;
+    width: 600px;
+    height: 400px;
+}
+
+h1{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.Nums{
+    position: relative;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#Botao{
+    margin: 10px;
+    background: rgb(28, 150, 150);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 10px 2px;
+    cursor: pointer;
+}
+#Numeros{
+    box-shadow: 2px 2px 10px 2px;
+    border-radius: 5px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.res{
+    position: relative;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
